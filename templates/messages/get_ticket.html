@@ -1,0 +1,4 @@
+当前预定门票情况：
+{% for tic in ticket %}
+<a href="{{ handler.url_get_ticket }}{{tic.unique_id}}">{{ act.name }}</a>
+{% endfor %}

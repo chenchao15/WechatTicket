@@ -1,0 +1,4 @@
+精彩活动如下：
+{% for act in activities %}
+<a href="{{ handler.url_gred_ticket }}{{act.id}}">{{ act.name }}</a>
+{% endfor %}
